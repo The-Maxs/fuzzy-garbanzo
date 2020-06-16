@@ -15,12 +15,11 @@ int main() {
     int suma = a+b;
     int resta = a-b;
     int division = a/b;
-    int modulo = a%b;
 
     char caract = (char) (a+b);
 
     cout << "La suma es: " << suma << ", la diferencia es: "<< resta << endl;
-    cout << "La division es: "<< division <<", el resto es: "<< modulo << endl;
+    cout << "La division es: "<< division <<", el resto es: "<< endl;
 
     cout<<"El caracter es: " << caract <<endl;
 
