@@ -13,6 +13,15 @@ float mySqrt(float x)
     return sqrt(x);
 }
 
+float division(float x, float y)
+{
+    if(y==0)
+    {
+        throw invalid_argument("No podes dividir por cero.");
+    }
+    return x/y;
+}
+
 int main()
 {
     float x;
@@ -20,7 +29,8 @@ int main()
     cin >> x;
     try
     {
-        float raizX = mySqrt(x)
+        float raizX = mySqrt(x);
+        cout << raizX << endl;
     }
     catch (exception &e)
     {

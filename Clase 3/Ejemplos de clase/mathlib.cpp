@@ -11,7 +11,7 @@ int main()
      * de lo que quieran, practicamente.
      ***************/
 
-    float a = 3.1415;
+    double a = M_PI;
 
     cout<< "a vale:" << a << ", su seno es: ";
     cout<< sin(a)<<", y su coseno: "<<cos(a)<<endl;
